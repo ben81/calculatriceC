@@ -1,0 +1,13 @@
+m i 1024  i 1024
+m l l
+m l l
+m l l
+m l l
+m l l
+m l l
+4 l
+2 i 280829369862134719390036617067
+q
+http://www.utm.edu/research/primes/lists/small/small.html
+http://membres.lycos.fr/villemingerard/Premier/densite.htm#Densite
+prime numbers 10000

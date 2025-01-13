@@ -1,0 +1,48 @@
+
+        *----------------------------------------------------------*
+        *            Bienvenue dans les nombres geants             *
+        *----------------------------------------------------------*
+        *                   Choisissez une operation               *
+        *----------------------------------------------------------*
+        * A) +  S) - M) *  D) / %  P) puissance                    *
+        * 1) fibonacci 2)factoriel                                 *
+        * 3) nb premier 4) dec premier 5) rch premier              *
+        * Q) quitter V) memoire  I) info                           *
+        *----------------------------------------------------------*
+5
+        *----------------------------------------------------------*
+        *  ALGORITHME de recherche de nonbre premier               *
+        *  1) n! +- 1                                              *
+        *  3) n * n - n + 41                                       *
+        *  4) n * n - 79 * n + 1601                                *
+        *  5) produit des n premiers Premier - 1                   *
+        *  6) produit des n premiers Premier + 1                   *
+        *----------------------------------------------------------*
+1
+valeur min:12
+valeur max:16
+
+___________________________________________________________
+pour n=12 et - 1 :479001599 est premier
+pour n=13 et - 1 :6227020799 est premier
+pour n=13  et + 1:6227020801 est premier
+pour n=14 et - 1 :87178291199 est premier
+pour n=14  et + 1:87178291201 est premier
+pour n=15  et + 1:1307674368001 est premier
+pour n=16 et - 1 :20922789887999 est premier
+
+__________________________________________________________
+
+
+
+
+6) produit des n premiers Premier + 1
+N ieme premier:
+___________________________________________________________
+pour n=2 :31 est premier
+pour n=3 :211 est premier
+pour n=4 :2311 est premier
+pour n=10 :200560490131 est premier
+
+
+
