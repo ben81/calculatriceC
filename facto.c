@@ -1,7 +1,7 @@
 #include "nbrdef.h"
 #include "addi.h"
 #include "multi.h"
-
+#include "facto.h"
 
 /*
 {

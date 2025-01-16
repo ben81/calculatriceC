@@ -16,9 +16,9 @@ typedef Tnombre *Tptrnombre;
 #define ERRFACTO  -3
 #define ERRFIBO  -4
 
-unsigned int sizenb;
-Tptrnombre tampon,tampon2,tampon3,tampon4,tampon5,tampon6,tampon7,tampon8,zero;
-char *strinp;
+extern unsigned int sizenb;
+extern Tptrnombre tampon,tampon2,tampon3,tampon4,tampon5,tampon6,tampon7,tampon8,zero;
+extern char *strinp;
 
 
 Xint sizenbr(Tptrnombre p);
