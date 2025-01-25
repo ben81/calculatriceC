@@ -1,7 +1,7 @@
-#include "nbrdef.h"
+
 #include "multi.h"
 #include "addi.h"
-#include "stdio.h"
+
 
 
 char dizaine [16*10];

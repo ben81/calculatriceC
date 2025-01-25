@@ -2,6 +2,8 @@
 #ifndef MULTI
 #define MULTI 1
 
+#include "nbrdef.h"
+
 void initmulti(void);
 void donemulti(void);
 

@@ -2,6 +2,7 @@
 #ifndef DIVI
 #define DIVI 1
 
+#include "nbrdef.h"
 
 extern Xint sizereste,sizequotient;
 extern Xint divisionnbr(Tptrnombre nbra,Tptrnombre nbrb,Tptrnombre quotien,Tptrnombre reste);

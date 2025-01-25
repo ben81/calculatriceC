@@ -2,6 +2,8 @@
 #ifndef PRIMO
 #define PRIMO 1
 
+#include "nbrdef.h"
+
 int divisible(Tptrnombre nbra);
 int booldivisible(Tptrnombre nbra);
 int primo(Tptrnombre nbra);

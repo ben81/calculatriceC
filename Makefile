@@ -1,14 +1,12 @@
 
 
 
-#ddddcomp/%.o: %.c
-#	gcc -ansi -Wall -c  -o $@ $^
 
 # Compilateur C
 CC = gcc
 
 # Drapeaux du compilateur
-CFLAGS = -MMD -MP
+CFLAGS = -MMD -MP -march=native
 
 # Nom de l'exécutable
 TARGET = cal
@@ -20,7 +18,7 @@ OBJDIR = comp
 SRCS = $(wildcard *.c)
 
 # Object files
-OBJS = $(patsubst %.c, $(OBJDIR)/%.o, $(SRCS))
+OBJS = $(patsubst %.c,$(OBJDIR)/%.o, $(SRCS))
 
 # Dependency files
 DEPS = $(OBJS:$(OBJDIR)/%.o=$(OBJDIR)/%.d)
@@ -28,6 +26,7 @@ DEPS = $(OBJS:$(OBJDIR)/%.o=$(OBJDIR)/%.d)
 
 # Règle par défaut
 all: $(TARGET)
+
 
 # Règle pour lier les fichiers objets en un exécutable
 $(TARGET): $(OBJS)
@@ -37,7 +36,7 @@ $(TARGET): $(OBJS)
 
 $(OBJDIR)/%.o: %.c Makefile
 	@mkdir -p $(OBJDIR)
-	$(CC) $(CFLAGS) -c $< -o $@ --save-temps -O3 -Wall 
+	$(CC) $(CFLAGS) -c $< -o $@ --save-temps -O3 -Wall --pedantic-errors 
 
 # Inclure les fichiers de dépendance
 -include $(DEPS)

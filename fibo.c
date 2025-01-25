@@ -1,5 +1,6 @@
 #include "nbrdef.h"
 #include "addi.h"
+#include "fibo.h"
 
 
 
