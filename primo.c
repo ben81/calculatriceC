@@ -1,9 +1,9 @@
 
+#include "divi.h"
 #include "addi.h"
 #include "sous.h"
-#include "divi.h"
-#include <stdio.h>
 
+#include <stdio.h>
 
 /********************************************************
 *							*

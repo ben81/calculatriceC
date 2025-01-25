@@ -6,7 +6,7 @@
 CC = gcc
 
 # Drapeaux du compilateur
-CFLAGS = -MMD -MP -march=native
+CFLAGS = -MMD -march=native
 
 # Nom de l'exécutable
 TARGET = cal

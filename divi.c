@@ -1,8 +1,7 @@
-
+#include "divi.h"
 #include "sous.h"
 #include "addi.h"
 #include "multi.h"
-#include "divi.h"
 
 
 Xint sizereste=0,sizequotient=0;
