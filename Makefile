@@ -37,7 +37,7 @@ $(TARGET): $(OBJS)
 
 $(OBJDIR)/%.o: %.c Makefile
 	@mkdir -p $(OBJDIR)
-	$(CC) $(CFLAGS) -c $< -o $@
+	$(CC) $(CFLAGS) -c $< -o $@ --save-temps -O3 -Wall 
 
 # Inclure les fichiers de dépendance
 -include $(DEPS)

@@ -216,7 +216,7 @@ int multidecade(Tptrnombre nbra,unsigned int decal ,Tptrnombre result)
 
 void initmulti(void)
 {
-	char i,j ;
+	int i,j ;
 	for (i=0;i<10;i++)
 	for (j=0;j<10;j++)
 	{
@@ -231,7 +231,7 @@ void initmulti(void)
 
 void donemulti(void)
 {
-	char i;
+	int i;
 	for (i=0;i<10;i++)
 	mcalcul[i]=donenbr(mcalcul[i]);
 }

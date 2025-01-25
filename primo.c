@@ -212,7 +212,7 @@ void decompose(Tptrnombre nbra)
 			}
 			printf("%d fois ",i);
 		}
-		if (sizequotient<=sizer )
+		if (sizequotient<sizer )
 		{
 			if( soustractionnbr(tampon6,tampon5,tampon8)<0 )
 				{

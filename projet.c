@@ -337,7 +337,7 @@ void stop(void)
 int main(void)
 {
 	int i;
-	system("cls");
+	//system("cls");
 	start();
 	while (1)
 	{
